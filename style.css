@@ -49,9 +49,11 @@ a:active {
   margin-top: 16px;
 }
 
-.answerButton:hover {
-  color: black;
-  border: 1px solid black;
+@media (hover: hover) {
+  .answerButton:hover {
+    color: black;
+    border: 1px solid black;
+  }
 }
 
 #replayButton {
